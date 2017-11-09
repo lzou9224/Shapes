@@ -19,17 +19,17 @@ public class Circle implements Shape {
 	 */
 	public Circle(int radius)
 	{ 
-		return;
+		this.radius = radius;
 	}
 
 	@Override
 	public double calculateArea() {
-		return(pi*(radius^2));
+		return (pi*(this.radius^2));
 	}
 
 	@Override
 	public double calculatePerimeter() {
-		return(pi*2*radius);
+		return(pi*2*this.radius);
 	}
 
 	@Override
