@@ -26,7 +26,7 @@ public class Triangle implements Shape
 	
 	public String toString() 
 	{ 
-		return " Triangle base: " + base + " Triangle height: " + height + " Triangle side2" + side2 + " Triangle side3:" + side3 + " Area: " + this.calculateArea() + " Perimeter: "
+		return "Triangle base: " + base + " Triangle height: " + height + " Triangle side2: " + side2 + " Triangle side3: " + side3 + " Area: " + this.calculateArea() + " Perimeter: "
 				+ this.calculatePerimeter(); 
 	}
 

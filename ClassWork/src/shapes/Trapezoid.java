@@ -24,7 +24,7 @@ public class Trapezoid implements Shape
 	}
 
 	public String toString() {
-		return " Trapezoid base1: " + base1 + " Trapezoid base2: " + base2 + " Trapezoid Height: " + height + " Trapezoid Leg: " + leg+ " Area: " + this.calculateArea() + " Perimeter: "
+		return "Trapezoid base1: " + base1 + " Trapezoid base2: " + base2 + " Trapezoid Height: " + height + " Trapezoid Leg: " + leg+ " Area: " + this.calculateArea() + " Perimeter: "
 				+ this.calculatePerimeter();
 	}
 }
