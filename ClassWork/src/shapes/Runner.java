@@ -23,7 +23,7 @@ public class Runner {
 		Shape trapezoid1= new Trapezoid(2,5,7,8);
 
 		System.out.println("First test out the hard coded shape arraay.\n\n");
-		Shape[] shapeArr = { circle1, rectangle1, square1 };
+		Shape[] shapeArr = { circle1, rectangle1, square1, triangle1, trapezoid1 };
 
 		for (Shape shape : shapeArr) {
 			System.out.println(shape);
