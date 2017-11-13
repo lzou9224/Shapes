@@ -1,5 +1,9 @@
 package shapes;
-
+/**
+ * Lingli Zou, Tabassum Bhuiyan
+ *  Lab 2.1 shapes
+ *
+ */
 public class Triangle implements Shape
 {
 	private int base;

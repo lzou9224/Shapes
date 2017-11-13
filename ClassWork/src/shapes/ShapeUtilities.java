@@ -3,10 +3,10 @@ package shapes;
 import java.util.Random;
 
 /**
- * @author Mr Levin Created 10/16/2017 Lab 2.1 shapes
+ * Lingli Zou, Tabassum Bhuiyan
+ *  Lab 2.1 shapes
  *
  */
-
 public class ShapeUtilities {
 
 	/**
@@ -16,7 +16,7 @@ public class ShapeUtilities {
 	 */
 	public static Shape randomShape() {
 		Random rand = new Random();
-		int x = rand.nextInt(3);
+		int x = rand.nextInt(5);
 
 		switch (x) {
 		case 0:
@@ -25,6 +25,10 @@ public class ShapeUtilities {
 			return new Rectangle(rand.nextInt(50), rand.nextInt(50));
 		case 2:
 			return new Square(rand.nextInt(50));
+		case 3:
+			return new Trapezoid(rand.nextInt(100), rand.nextInt(100), rand.nextInt(100), rand.nextInt(100));
+		case 4:
+			return new Triangle(rand.nextInt(100), rand.nextInt(100), rand.nextInt(100), rand.nextInt(100));
 		default:
 			return new Circle(rand.nextInt(100));
 		}
@@ -37,9 +41,23 @@ public class ShapeUtilities {
 	 * @param shapes
 	 * @return double
 	 */
-	public static double sumArea(Shape[] shapes) {
-		// To be written by student
-		return 0.0;
+	
+	public static void printArray(String[] words)
+	{
+		for (String word : words)
+		{
+			System.out.println(words);
+		}
+	}
+	
+	public static double sumArea(Shape[] shapes) 
+	{
+		int total = 0;
+		for(int i=0; i< shapes.length; i++)
+		{
+			total = total + shapes[i];
+		}
+		return total;
 	}
 
 	/**
@@ -48,8 +66,9 @@ public class ShapeUtilities {
 	 * @param shapes
 	 * @return double
 	 */
-	public static double sumPerimeter(Shape[] shapes) {
-		// To be written by student
+	public static double sumPerimeter(Shape[] shapes)
+	{
+		
 		return 0.0;
 	}
 

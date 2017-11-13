@@ -1,7 +1,8 @@
 package shapes;
 
 /**
- * @author Mr Levin Created 10/16/2017 Lab 2.1 shapes
+ * Lingli Zou, Tabassum Bhuiyan
+ *  Lab 2.1 shapes
  *
  */
 public class Rectangle implements Shape {
