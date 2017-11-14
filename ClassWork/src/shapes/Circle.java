@@ -7,17 +7,9 @@ package shapes;
  */
 public class Circle implements Shape {
 
-	// fields
 	private int radius;
 	private static double pi = 3.14;
 
-	/**
-	 * Constructor method
-	 * 
-	 * @param radius
-	 * @return 
-	 * @return 
-	 */
 	public Circle(int radius)
 	{ 
 		this.radius = radius;
@@ -35,7 +27,6 @@ public class Circle implements Shape {
 
 	@Override
 	public String toString() {
-		// to be implemented by student
 		return  "Circle Radius: " + radius + " Area: " + this.calculateArea() + " Perimeter: "
 				+ this.calculatePerimeter();
 	}

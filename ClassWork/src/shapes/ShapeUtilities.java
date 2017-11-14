@@ -9,11 +9,7 @@ import java.util.Random;
  */
 public class ShapeUtilities {
 
-	/**
-	 * Creates a random shape from the choices.
-	 * 
-	 * @return Shape Student Work: Update with your own shape.
-	 */
+	
 	public static Shape randomShape() {
 		Random rand = new Random();
 		int x = rand.nextInt(5);
@@ -35,14 +31,6 @@ public class ShapeUtilities {
 
 	}
 
-	/**
-	 * adds up the area of all the shapes in the array
-	 * 
-	 * @param shapes
-	 * @return double
-	 */
-	
-	
 	public static double sumArea(Shape[] shapes) 
 	{
 		double x = 0;
@@ -53,12 +41,6 @@ public class ShapeUtilities {
 		return x;
 	}
 
-	/**
-	 * adds up the perimeter of all the shapes in the array
-	 * 
-	 * @param shapes
-	 * @return double
-	 */
 	public static double sumPerimeter(Shape[] shapes)
 	{
 		double y = 0;
