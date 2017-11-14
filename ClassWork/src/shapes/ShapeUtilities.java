@@ -30,7 +30,7 @@ public class ShapeUtilities {
 		}
 
 	}
-
+//This takes an array of shapes and adds up the areas
 	public static double sumArea(Shape[] shapes) 
 	{
 		double x = 0;
@@ -40,7 +40,7 @@ public class ShapeUtilities {
 		}
 		return x;
 	}
-
+//This takes an array of shapes and adds up the perimeters
 	public static double sumPerimeter(Shape[] shapes)
 	{
 		double y = 0;

@@ -8,7 +8,8 @@ package shapes;
 public class Square extends Rectangle {
 
 	int side;
-
+//Squares are extensions of rectangles
+	//Uses the side values for the length and the width in the rectangle methods for area and perimeter
 	public Square(int side) {
 		super(side, side);
 		this.side = side;
