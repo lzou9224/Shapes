@@ -21,7 +21,7 @@ public class Triangle implements Shape
 
 	public double calculateArea() 
 	{
-		return (1/2*this.base*this.height);
+		return ((this.base*this.height)/2);
 	}
 
 	public double calculatePerimeter() {

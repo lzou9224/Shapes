@@ -42,22 +42,15 @@ public class ShapeUtilities {
 	 * @return double
 	 */
 	
-	public static void printArray(String[] words)
-	{
-		for (String word : words)
-		{
-			System.out.println(words);
-		}
-	}
 	
 	public static double sumArea(Shape[] shapes) 
 	{
-		int total = 0;
+		double x = 0;
 		for(int i=0; i< shapes.length; i++)
 		{
-			total = total + shapes[i];
+			x = x + shapes[i].calculateArea();
 		}
-		return total;
+		return x;
 	}
 
 	/**
@@ -68,8 +61,12 @@ public class ShapeUtilities {
 	 */
 	public static double sumPerimeter(Shape[] shapes)
 	{
-		
-		return 0.0;
+		double y = 0;
+		for (int i=0; i< shapes.length; i++)
+		{
+			y = y + shapes[i].calculatePerimeter();
+		}
+		return y;
 	}
 
 }
