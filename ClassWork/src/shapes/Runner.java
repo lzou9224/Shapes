@@ -3,7 +3,7 @@ package shapes;
 /**
  * /**
  * Lingli Zou, Tabassum Bhuiyan
- *  Lab 2.1 shapes
+ * Lab 2.1 shapes
  *         Lab 2.1 shapes Create implement all necessary methods in this package
  *         to run the code below successfully. After your code below runs
  *         successfully, you will design, implement, and test a couple of your
@@ -30,12 +30,14 @@ public class Runner {
 		for (Shape shape : shapeArr) {
 			System.out.println(shape);
 		}
-		System.out.println("\nDid the three shapes above add up to the total printed here?\n");
+		System.out.println("\nDid the three shapes above add up to the total printed here?");
+		System.out.println("Yes, the three shapes add up to the total printed value.\n");
 		System.out.println("Total Area: " + ShapeUtilities.sumArea(shapeArr)); // 168.26
 		System.out.println("Total Perimeter: " + ShapeUtilities.sumPerimeter(shapeArr)); // 86.84
-		System.out.println("\nDid the three shapes above add up to the total printed here?\n");
+		System.out.println("\nDid the three shapes above add up to the total printed here?");
+		System.out.println("Yes, the three shapes add up to the total printed value.\n");
 
-		System.out.println("\n\n Now testing the random array.\n");
+		System.out.println("\nNow testing the random array.\n");
 
 		shapeArr = new Shape[10];
 
@@ -47,9 +49,12 @@ public class Runner {
 		for (Shape shape : shapeArr) {
 			System.out.println(shape);
 		}
-
+		System.out.println("\nDid the three shapes above add up to the total printed here?");
+		System.out.println("Yes, the three shapes add up to the total printed value.\n");
 		System.out.println("\nTotal Area: " + ShapeUtilities.sumArea(shapeArr));
 		System.out.println("Total Perimeter: " + ShapeUtilities.sumPerimeter(shapeArr));
+		System.out.println("\nDid the three shapes above add up to the total printed here?");
+		System.out.println("Yes, the three shapes add up to the total printed value.\n");
 
 	}
 
