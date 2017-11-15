@@ -16,7 +16,7 @@ package shapes;
  *         Both classes must extend shape, and implement all necessary methods.
  */
 public class Runner {
-
+//Gives values to be substituted into the formulas for the different shapes
 	public static void main(String[] args) {
 		Shape circle1 = new Circle(3);
 		Shape rectangle1 = new Rectangle(10, 4);
@@ -39,7 +39,6 @@ public class Runner {
 
 		shapeArr = new Shape[10];
 
-		// Why are we using a for loop instead of a for-each loop here?
 		// We are using a for loop instead of a for-each loop because it generalizes to all shapes
 		for (int i = 0; i < shapeArr.length; i++) {
 			shapeArr[i] = ShapeUtilities.randomShape();

@@ -6,6 +6,7 @@ package shapes;
  *
  */
 public class Triangle implements Shape
+//Defines the dimensions to be used in calculations
 {
 	private int base;
 	private int height;
@@ -22,15 +23,18 @@ public class Triangle implements Shape
 
 	public double calculateArea() 
 	{
+		//Formula for area of a triangle
 		return ((this.base*this.height)/2);
 	}
 
 	public double calculatePerimeter() {
+		//Formula for perimeter of a triangle
 		return (this.base+this.side2+this.side3);
 	}
 	
 	public String toString() 
 	{ 
+		//Builds the triangle using the dimensions and the calculated values
 		return "Triangle base: " + base + " Triangle height: " + height + " Triangle side2: " + side2 + " Triangle side3: " + side3 + " Area: " + this.calculateArea() + " Perimeter: "
 				+ this.calculatePerimeter(); 
 	}

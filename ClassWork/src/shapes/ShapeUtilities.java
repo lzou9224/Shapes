@@ -11,6 +11,7 @@ public class ShapeUtilities {
 
 	
 	public static Shape randomShape() {
+		//Builds a random shape using the number of side lengths/ dimensions specified to be substituted into the code for each shape
 		Random rand = new Random();
 		int x = rand.nextInt(5);
 

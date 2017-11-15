@@ -6,6 +6,7 @@ package shapes;
  *
  */
 public interface Shape {
+	//Other classes call these methods to make calculations for their shapes
 
 	public abstract double calculateArea();
 
