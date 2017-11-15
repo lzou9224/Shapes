@@ -55,6 +55,9 @@ public class Runner {
 		System.out.println("Total Perimeter: " + ShapeUtilities.sumPerimeter(shapeArr));
 		System.out.println("\nDid the three shapes above add up to the total printed here?");
 		System.out.println("Yes, the three shapes add up to the total printed value.\n");
+		
+		System.out.println("\nWe are finished!!\n");
+
 
 	}
 
