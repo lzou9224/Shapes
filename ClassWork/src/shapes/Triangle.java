@@ -15,6 +15,7 @@ public class Triangle implements Shape
 	
 //Precondition is that this is a legal triangle
 	//The sum of the lengths of any 2 sides of a triangle has to be greater than the length of the other side
+	
 	public Triangle(int base, int height, int side2, int side3) 
 	{
 		this.base = base;
